@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.teste, .teste1, .teste2 {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    height: 300px;
+    background-color: darkgray;
+}
+
+.teste1 {
+    background-color: darkgrey;
+}
+
+.teste2 {
+    background-color: rgb(50,50,50);
+}
+/* passa o mouse por cima
+.teste:hover {
+    background-color: blue;
+}*/
+
+/* Active serve para quando estamos com o mouse pressionando em cima do nosso elemento
+.teste:active {
+    background-color: red;
+}*/
+/* focus serve para quando clicamos e focamos o nosso elemento do formulario
+.formulario:focus {
+    background-color: blueviolet;
+}
+
+.textarea1 {
+    display: block;
+    width: 600px;
+    height: 400px;
+}
+*/

@@ -1,0 +1,24 @@
+body {
+    background-color: whitesmoke;
+
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    background: green;
+
+}
+
+.box2 {
+    width: 250px;
+    background: red;
+}
+
+.box span {
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    background: red;
+}
+

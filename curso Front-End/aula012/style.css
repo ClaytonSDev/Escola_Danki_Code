@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+form {
+    margin: 30px;
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form fieldset {
+    padding: 20px 40px;
+    border: 1px solid black;
+
+}
+
+form legend {
+    text-align: left;
+    font-size: 17px;
+    color:blue
+}
+
+form input[type=text] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 13px;
+    border: 1px solid black;
+
+}
+
+form input[type=text]:focus, form select, form textarea:focus {
+    outline: 0;
+
+}
+
+form select {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    width:calc(80% + 26px);
+    margin-top: 30px;
+    padding: 10px 13px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+form h2 {
+    color: yellowgreen;
+    margin-top: 20px;
+
+}
+
+.input {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.input span {
+    margin-left: 13px;
+    font-size: 16px;
+    color: yellowgreen;
+}
+
+form textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid red;
+    margin-top: 30px;
+    width: 80%;
+    height: 140px;
+    padding: 10px 13px;
+    resize: none;
+}
+
+form input[type=submit]{
+    margin-top: 30px;
+    border: 0;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black;
+    color: blueviolet;
+    background-color: darkgrey;
+}

@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+.menu {
+    width: 100%;
+    background-color: rgb(230, 7, 200);
+    margin: 0px auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+
+}
+
+.menu > a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    margin: 0 10px;
+
+}
+
+body {
+    background-color:white
+
+}
+
+main {
+    background-color: rgb(246, 172, 236);
+    width: 900px;
+    margin: 1px auto;
+    border-radius: 5px;
+    
+}
+
+h1 {
+    padding: 10px 20px 10px 20px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.tx1 > h1 {
+    background-color: yellow;
+    padding: 10px 20px 10px 20px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+        
+}
+
+h2 {
+    padding: 10px 20px 10px 20px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.tx2 > h2 {
+    background-color: yellow;
+    padding: 10px 20px 10px 20px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    
+}
+
+div > p {
+    padding: 20px 40px 20px 40px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 30px;
+    text-align: justify;
+
+}
+
+.lista, .lista2 {
+    list-style-position: inside;
+    list-style-type: disc;
+
+}
+
+.lista li, .lista2 li {
+    font-size: 20px;
+    color: blue;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.lista .item3, .lista2 .item33 {
+    font-weight: bold;
+    color: brown;
+}
+
+ol {
+    list-style-position: inside;
+    font-size: 20px;
+    color: blue;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.um {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+
+}
+
+.dois {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+
+}
+
+.tres {
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+
+}
+
+.quatro {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+
+.tipo1 {
+    color: orangered;
+
+}
+
+.link_ {
+    color: blue;
+    font-size: 40px;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+}
+
+.article {
+    width: 100%;
+    height: 600px;
+    background-color: orange;
+}

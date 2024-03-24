@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.box {
+    width: 100%;
+    margin: 80px auto;
+    text-align: center;
+    background-color: darkgrey;
+}
+
+.item {
+    margin: 0 40px;
+    display: inline-block;
+    
+}

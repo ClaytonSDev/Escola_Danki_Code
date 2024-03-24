@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.box {
+    width: 100%;
+}
+
+.box > div {
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    height: 400px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.box div:last-of-type p {
+    color: white;
+}
+
+.box div:not(.one){
+    background-color: gold;
+}
